@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <script>
+        var frutas = ["Manzana", "Pera", "Platano"];
+        console.log(frutas, frutas[0], frutas[1], frutas[2]);
+
+        frutas.push("Kiwu")
+        var a = frutas.pop(0);
+
+        var a = frutas.pop();
+
+        console.log(frutas);
+        console.log(a);
+
+        frutas.unshift("Mango");
+        console.log(frutas, frutas[0]);
+        var b = frutas.shift();
+        console.log(frutas, frutas[0]);
+        console.log(b);
+
+        // obtener el tamaño de la array
+        var tam = frutas.length;
+        console.log(tam);
+
+        // borrar elementos del array
+        delete frutas[1]; // no recomendable
+        console.log(frutas, frutas[1]);
+
+        frutas.splice(1,1); // eliminamos un elemento del array
+        console.log(frutas, frutas[1]);
+
+        // ordenar
+        frutas.sort();
+
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings</title>
+</head>
+<body>
+    <script>
+        var x = "Hola";
+        var y = 'Hola';
+        var z = 'Hola';
+
+        var w = "Hola , " + "qué tal?";
+
+        var q = w.concat(" Muy bien, y tu?")
+
+        var t = "Hola \" Joan\" ";
+        var s = 'Hola \' Joan\' ';
+        var r = "Hello 'Joan' ";
+        var rr = "Bye 'Joan' ";
+        
+
+        console.log(x);
+        console.log(y);
+        console.log(z);
+
+        console.log(w);
+        console.log(q);
+        console.log(t);
+        console.log(s);
+        console.log(r);
+        console.log(rr);
+
+        // Propiedades
+        console.log(rr.length);
+
+        // Los indices del Sistema siempre empiezan en 0
+        console.log(rr[0]);
+    
+
+        for (var i = 0; i <rr.length; i++) {
+            console.log(rr[i]);
+        }
+
+        consolo.log("En la posicion 7 tenemos la letra: ", rr.charAt(6));
+    </script>
+</body>
+</html>

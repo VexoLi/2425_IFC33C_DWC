@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var x = 3.987654;
+        var y = 4;
+        var z = "99";
+
+        console.log(Number.MAX_VALUE);
+        console.log(Number.MIN_VALUE);
+
+        console.log(x, y, z);
+        var z = parseInt(a);
+        console.log(a, typeof a, z, typeof z);
+        var zz = parseFloat(y);
+        console.log(zz);
+        var zzz = parseFloat(x);
+        console.log(zzz);
+
+        var w = parseInt(x * y);
+        console.log(w);
+        
+        var s = x.toFixed(2); // Para indicar que queremos sólo 2 decimales
+        console.log(s);
+
+        var b = "hola"; // String
+        var c = parseInt(b);
+        console.log(c); // NaN -> Es un valor
+
+        console.log(Number.isNaN(b)); // FALSE -> b no tiene el valor NaN
+        console.log(Number.isNaN(x)); // FALSE -> x no tiene valor NaN
+        console.log(Number.isNaN(c)); // TRUE -> tiene el valor NaN
+        console.log(isNaN(parseInt(b)));
+    </script>
+</body>
+</html>

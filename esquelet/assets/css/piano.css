@@ -130,6 +130,11 @@ body {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
 
+.search-container > .play-btn{
+    margin-top: 10px;
+    min-width: 5%;
+}
+
 
 .search-results {
     text-align: left;

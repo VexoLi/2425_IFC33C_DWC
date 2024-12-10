@@ -39,7 +39,7 @@ let partitures = [
     let tbody = document.createElement("tbody");
     let data = generateData();
   
-    data.forEach((item) => {
+    data.forEach((item, index) => {
       let row = document.createElement("tr");
   
       // Títol de la columna
@@ -93,5 +93,29 @@ let partitures = [
   // Llamar a la función para crear la tabla
   createTable();
   
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const loginLink = document.getElementById("login-link");
+    const loginModal = document.getElementById("login-modal");
+    const closeModal = document.getElementById("close-modal");
+
+    loginLink.addEventListener("click", (e) => {
+      e.preventDefault();
+      loginModal.classList.remove("hidden");
+      loginModal.style.display = "flex";
+    });
+
+    closeModal.addEventListener("click", () => {
+      loginModal.classList.add("hidden");
+      loginModal.style.display = "none";
+    });
+
+    loginModal.addEventListener("click", (e) => {
+      if (e.target === loginModal) {
+        loginModal.classList.add("hidden");
+        loginModal.style.display = "none";
+      }
+    });
+  });
 
   

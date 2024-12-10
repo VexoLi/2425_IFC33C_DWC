@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.modal-content{
+    background-image: url(../img/background/background11.jpg);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+.modal-content > form{
+    text-align: left;
+}
+
+.modal-content > form div{
+    margin: 10px 0px;
+}
+
+.modal-content > form > button{
+    background-color: #d32f2f;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 0 5px 0 black;
+    transition-duration: 0.8s;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.modal-content > form > button:hover{
+    background-color: #9a0007;
+}

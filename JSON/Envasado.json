@@ -1,0 +1,45 @@
+{
+    "contenedores": [
+        {
+            "tipo": "Grande",
+            "compatibleCon": ["Grande alto", "Grande ancho"]
+        },
+        {
+            "tipo": "Mediano",
+            "compatibleCon": ["Mediano ancho", "Mediano alto", "Pequeño"]
+        },
+        {
+            "tipo": "Vertical",
+            "compatibleCon": ["Grande alto", "Mediano alto"]
+        }
+    ],
+    "envases": [
+        {
+            "tipo": "Grande alto",
+            "uso": "Alimentos",
+            "compatibleCon": ["Agua", "Leche", "Aceite", "Vinagre"]
+        },
+        {
+            "tipo": "Grande ancho",
+            "uso": "Alimentos",
+            "compatibleCon": ["Agua", "Leche", "Aceite", "Vinagre"]
+        },
+        {
+            "tipo": "Mediano ancho",
+            "uso": "Alimentos",
+            "compatibleCon": ["Agua", "Leche", "Aceite", "Vinagre"]
+        },
+        {
+            "tipo": "Mediano alto",
+            "uso": "Resistente a corrosivos",
+            "compatibleCon": ["Alcohol", "Gasolina", "Aguarrás", 
+                "Lejía", "Amoniaco", "Jabón"]
+        },
+        {
+            "tipo": "Pequeño",
+            "uso": "Resistente a corrosivos",
+            "compatibleCon": ["Alcohol", "Gasolina", "Aguarrás", 
+                "Lejía", "Amoniaco", "Jabón"]
+        }
+    ]
+}
